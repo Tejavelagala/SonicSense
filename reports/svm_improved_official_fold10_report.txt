@@ -1,0 +1,22 @@
+Improved SVM — official fold 10 holdout
+Training recordings: 7895
+Test recordings: 837
+Features: 29
+Accuracy: 0.6786
+
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.70      0.43      0.53       100
+        car_horn       0.62      0.55      0.58        33
+children_playing       0.55      0.63      0.59       100
+        dog_bark       0.61      0.74      0.67       100
+        drilling       0.83      0.76      0.79       100
+   engine_idling       0.57      0.60      0.59        93
+        gun_shot       0.94      0.94      0.94        32
+      jackhammer       0.87      0.86      0.87        96
+           siren       0.60      0.55      0.57        83
+    street_music       0.68      0.79      0.73       100
+
+        accuracy                           0.68       837
+       macro avg       0.70      0.69      0.69       837
+    weighted avg       0.69      0.68      0.68       837

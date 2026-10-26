@@ -1,0 +1,47 @@
+# Python environments and secrets
+.venv/
+venv/
+env/
+.env/
+.env.*
+!.env.example
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Raw UrbanSound8K audio; preserve metadata and documentation
+data/raw/UrbanSound8K/audio/
+
+# Generated processed datasets
+data/processed/
+
+# Exclude model artifacts except the canonical application model
+models/*.joblib
+models/*.pkl
+models/*.pickle
+!models/svm_improved_official_fold10_model.joblib
+
+# Keep evaluation reports
+# reports/
+
+# Current root-level exploratory audio samples
+/car-ignition-1.wav
+/gun-cocking-01.wav
+/mixkit-happy-child-laughing-2265.wav
+
+# Streamlit secrets and temporary files
+.streamlit/secrets.toml
+temp_uploaded_audio*
+*.tmp
+*.log
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
